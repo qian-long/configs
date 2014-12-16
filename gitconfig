@@ -1,0 +1,36 @@
+[user]
+  name = Qian Long
+  email = qlong@mit.edu
+[core]
+	autocrlf = false
+  safecrlf  = true
+  editor    = vim
+[alias]
+  co = checkout
+  ci = commit -v
+  st = status
+  br = branch
+  df = diff
+  lg = log -p
+  ls = ls-files
+  lol = log --graph --decorate --pretty=format:\"%Cblue %h %C(magenta) %ad %C(cyan) %d %Creset %s %C(green)[%an]\" --date=short
+  lal = log --graph --decorate --pretty=format:\"%Cblue %h %C(magenta) %ad %C(cyan) %d %Creset %s %C(green)[%an]\" --date=short --all
+  type = cat-file -t
+  dump = cat-file -p
+  mergeb = merge --no-ff
+[color]
+  ui = auto
+[color "branch"]
+  current = green reverse
+  local = green
+  remote = yellow
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  add = yellow
+  changed = green
+  untracked = cyan
+
