@@ -1,9 +1,9 @@
-#To Install
+##To Install
 
 ```
-cp gitconfig ~/.gitconfig
-cp screenrc ~/.screenrc
-cp vimrc ~/.vimrc
-cp vim ~/.vim
-cp tmux.conf ~/.tmux.conf
+./install_configs.sh
+```
+##To Update
+```
+./update_configs.sh
 ```
